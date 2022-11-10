@@ -30,7 +30,7 @@ export default function Project({ navigation }) {
       method: 'GET',
       headers: {
         'cache-control': 'no-cache',
-        'x-apikey': 'ac46ad7c4da469f793cc6cb27c88a941ae25d',
+        'x-apikey': 'your api key',
       },
     };
 
@@ -69,7 +69,7 @@ export default function Project({ navigation }) {
               method: 'GET',
               headers: {
                 'cache-control': 'no-cache',
-                'x-apikey': 'ac46ad7c4da469f793cc6cb27c88a941ae25d',
+                'x-apikey': 'Your API key',
               },
             };
             function allgetdata() {
@@ -129,7 +129,7 @@ export default function Project({ navigation }) {
                   method: 'DELETE',
                   headers: {
                     'cache-control': 'no-cache',
-                    'x-apikey': 'ac46ad7c4da469f793cc6cb27c88a941ae25d',
+                    'x-apikey': 'Your Api Key',
                     'content-type': 'application/json',
                   },
                 };
